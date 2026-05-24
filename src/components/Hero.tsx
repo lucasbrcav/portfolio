@@ -55,8 +55,8 @@ export default function Hero() {
               variants={fadeUp}
               className="mt-6 max-w-xl text-base leading-relaxed text-zinc-400"
             >
-              Tecnologia, dados e automação transformando operações em{' '}
-              <span className="text-white">sistemas inteligentes</span>.
+              Uso tecnologia, dados e automação para deixar operações mais{' '}
+              <span className="text-white">simples, estáveis e escaláveis</span>.
             </motion.p>
 
             <motion.div variants={fadeUp} className="mt-10 flex flex-wrap items-center gap-3">

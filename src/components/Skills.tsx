@@ -60,14 +60,14 @@ export default function Skills() {
           variants={stagger(0, 0.08)}
         >
           <motion.span variants={fadeUp} className="section-title-eyebrow">
-            02 — Stack
+            02 / Stack
           </motion.span>
           <motion.h2 variants={fadeUp} className="section-title mt-4">
             Ferramentas que uso para <span className="accent-gradient">construir e sustentar</span> operações.
           </motion.h2>
           <motion.p variants={fadeUp} className="section-subtitle">
-            Da linha de comando ao dashboard executivo — uma stack pragmática, escolhida pelo
-            que ela resolve, não pelo hype.
+            Da linha de comando ao dashboard executivo, uma stack pragmática escolhida pelo que
+            resolve na prática.
           </motion.p>
 
           <motion.div

@@ -15,7 +15,7 @@ const projects: Project[] = [
   {
     name: 'Ops Control Plane',
     description:
-      'Plataforma interna que unifica métricas, alertas e ações de operação em um único painel, reduzindo o tempo de resposta a incidentes.',
+      'Painel interno que reúne métricas, alertas e ações de operação no mesmo lugar, reduzindo o tempo de resposta a incidentes.',
     stack: ['Go', 'Next.js', 'Grafana', 'Docker'],
     status: 'em produção',
     link: '#',
@@ -24,7 +24,7 @@ const projects: Project[] = [
   {
     name: 'Blue-Green Pipeline',
     description:
-      'Pipeline de deploy zero-downtime com Nginx e health-checks customizados para serviços críticos de telecom.',
+      'Pipeline de deploy sem downtime, com Nginx e health checks customizados para serviços críticos de telecom.',
     stack: ['Linux', 'Nginx', 'Docker', 'Bash'],
     status: 'open source',
     link: '#',
@@ -33,7 +33,7 @@ const projects: Project[] = [
   {
     name: 'Automation Hub (n8n)',
     description:
-      'Conjunto de fluxos n8n que automatizam roteamento de chamados, reconciliação de dados e relatórios executivos diários.',
+      'Fluxos em n8n para automatizar roteamento de chamados, reconciliação de dados e geração de relatórios diários.',
     stack: ['n8n', 'Python', 'PostgreSQL'],
     status: 'interno',
     link: '#',
@@ -41,7 +41,7 @@ const projects: Project[] = [
   {
     name: 'Telemetry Toolkit',
     description:
-      'Biblioteca interna em Go para padronizar logs, métricas e tracing entre microserviços seguindo princípios de DDD.',
+      'Biblioteca interna em Go para padronizar logs, métricas e tracing entre microserviços, seguindo princípios de DDD.',
     stack: ['Go', 'OpenTelemetry', 'DDD'],
     status: 'em evolução',
     repo: '#',
@@ -59,14 +59,14 @@ export default function Projects() {
           variants={stagger(0, 0.08)}
         >
           <motion.span variants={fadeUp} className="section-title-eyebrow">
-            03 — Projetos
+            03 / Projetos
           </motion.span>
           <motion.h2 variants={fadeUp} className="section-title mt-4">
-            Coisas que <span className="accent-gradient">construí</span> e que rodam todo dia.
+            Projetos que <span className="accent-gradient">tirei do papel</span> e rodam no dia a dia.
           </motion.h2>
           <motion.p variants={fadeUp} className="section-subtitle">
-            Uma seleção de projetos onde o desafio era real: operação 24/7, dados sensíveis e
-            requisitos de performance.
+            Uma seleção de projetos com problema real para resolver, operação 24/7 e metas claras
+            de desempenho.
           </motion.p>
         </motion.div>
 

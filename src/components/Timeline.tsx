@@ -10,40 +10,34 @@ type Step = {
 
 const steps: Step[] = [
   {
-    year: '2018',
+    year: '2018-2020',
     role: 'Atendente de Call Center',
     description:
       'O começo. Primeiro contato com operação real, métricas duras e a importância de processos bem desenhados.',
   },
   {
-    year: '2019',
+    year: '2020-2021',
     role: 'Supervisor',
     description:
       'Liderança de equipe, gestão de SLAs e os primeiros experimentos com automação de planilhas e relatórios.',
   },
   {
-    year: '2020',
-    role: 'Analista Júnior',
-    description:
-      'Transição para o lado analítico: dashboards, modelagem de dados e o início do mergulho técnico de verdade.',
-  },
-  {
-    year: '2022',
+    year: '2021-2022',
     role: 'Analista Pleno',
     description:
       'Automação ganhando escala. Integrações entre sistemas, scripts em Python e primeiros serviços em produção.',
   },
   {
-    year: '2024',
+    year: '2022-2024',
     role: 'Analista Sênior',
     description:
-      'Arquitetura de soluções, microserviços em Go, infraestrutura Linux com Docker e deploys blue-green.',
+      'Arquitetura de soluções, automações, infraestrutura Linux com Docker.',
   },
   {
-    year: '2025',
-    role: 'Especialista em Operações · Wantel',
+    year: '2024-Atual',
+    role: 'Especialista em Operações | Wantel',
     description:
-      'Responsável pela espinha dorsal técnica das operações — dados, automação e infraestrutura como produto.',
+      'Hoje cuido de um sistema fullstack em Go, Python e Next.js (TypeScript), unificando CRM, CX, operação de campo e pontos de compras, trazendo mais agilidade e reduzindo o tempo dos processos e a rolagem de telas no dia a dia.',
   },
 ];
 
@@ -65,14 +59,14 @@ export default function Timeline() {
           variants={stagger(0, 0.08)}
         >
           <motion.span variants={fadeUp} className="section-title-eyebrow">
-            04 — Trajetória
+            04 / Trajetória
           </motion.span>
           <motion.h2 variants={fadeUp} className="section-title mt-4">
-            Oito anos, <span className="accent-gradient">seis camadas</span> de aprendizado.
+            Oito anos, <span className="accent-gradient">seis etapas</span> de aprendizado.
           </motion.h2>
           <motion.p variants={fadeUp} className="section-subtitle">
-            Cada papel adicionou uma lente diferente sobre o mesmo problema: como fazer
-            operações funcionarem melhor.
+            Cada fase trouxe uma visão nova do mesmo desafio: fazer operações funcionarem melhor,
+            com menos atrito e mais clareza.
           </motion.p>
         </motion.div>
 

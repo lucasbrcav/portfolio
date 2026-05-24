@@ -7,26 +7,26 @@ const channels = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'contato@lucasbc.dev',
-    href: 'mailto:contato@lucasbc.dev',
+    value: 'lucasbcavalcanti96@gmail.com',
+    href: 'mailto:lucasbcavalcanti96@gmail.com',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
     value: 'Conversar agora',
-    href: 'https://wa.me/5500000000000',
+    href: 'https://wa.me/558788230581',
   },
   {
     icon: Github,
     label: 'GitHub',
-    value: 'github.com/lucasbc',
-    href: 'https://github.com/',
+    value: 'github.com/lucasbrcav',
+    href: 'https://github.com/lucasbrcav',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/lucasbc',
-    href: 'https://linkedin.com/',
+    value: 'in/lucas-braga-cavalcanti-4a43ab1b3',
+    href: 'https://www.linkedin.com/in/lucas-braga-cavalcanti-4a43ab1b3',
   },
 ];
 
@@ -53,15 +53,15 @@ export default function Contact() {
           <div className="relative grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
               <motion.span variants={fadeUp} className="section-title-eyebrow">
-                05 — Contato
+                05 / Contato
               </motion.span>
               <motion.h2 variants={fadeUp} className="section-title mt-4">
                 Tem um problema interessante <br />
                 <span className="accent-gradient">para resolver?</span>
               </motion.h2>
               <motion.p variants={fadeUp} className="section-subtitle">
-                Se você lidera uma operação que precisa escalar com dados, automação e
-                infraestrutura sólida — vamos conversar.
+                Se você lidera uma operação e quer escalar com dados, automação e infraestrutura
+                sólida, vamos conversar.
               </motion.p>
 
               <motion.ul
@@ -78,20 +78,22 @@ export default function Contact() {
                       whileTap={{ scale: 0.98 }}
                       className="group flex items-center justify-between gap-4 rounded-xl border border-white/[0.08] bg-ink-900/60 px-4 py-3.5 transition-colors hover:border-accent/40"
                     >
-                      <div className="flex items-center gap-3">
+                      <div className="flex min-w-0 items-center gap-3">
                         <span className="grid h-9 w-9 place-items-center rounded-lg border border-white/10 bg-white/[0.03] text-accent">
                           <c.icon size={15} />
                         </span>
-                        <div>
+                        <div className="min-w-0">
                           <div className="text-[10px] uppercase tracking-wider text-zinc-500">
                             {c.label}
                           </div>
-                          <div className="text-sm font-medium text-white">{c.value}</div>
+                          <div className="break-all text-sm font-medium leading-snug text-white">
+                            {c.value}
+                          </div>
                         </div>
                       </div>
                       <ArrowUpRight
                         size={16}
-                        className="text-zinc-500 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent"
+                        className="shrink-0 text-zinc-500 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent"
                       />
                     </motion.a>
                   </motion.li>
